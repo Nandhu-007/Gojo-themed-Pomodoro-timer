@@ -1,0 +1,55 @@
+body{
+    background-image: url("Study hard (1).png");
+    background-size:cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left-eye {
+    position: absolute;
+    top: 33%;   
+    left: 22%;  
+    font-size: 8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.right-eye {
+    position: absolute;
+    top: 39%;
+    left: 52%;  
+    font-size: 8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.title{
+    background-image: linear-gradient(45deg,black , rgb(249, 100, 41), black);
+    font-size: 2.5em;
+    color: aliceblue;
+    position: absolute;
+    left: 37%;
+    font-style: oblique;
+    font-weight: bolder;
+    border: 0.05em solid black;
+    padding: 1%;
+}
+
+.button-wrapper {
+    position: absolute;
+    bottom: 33%; 
+    left: 9%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+button{
+    background-image: linear-gradient(45deg,black , rgb(249, 100, 41), black);
+    padding:4.5px;
+    margin: 2px;  
+    color: beige;
+    font-size: 2em;;
+
+}
+
